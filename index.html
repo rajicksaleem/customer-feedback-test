@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Feedback</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="your-logo.png" alt="ASAS Center Group" class="logo">
+        <h1>Customer Feedback</h1>
+        <form id="feedback-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+
+            <h2>Questionnaire:</h2>
+            <div class="questions">
+                <!-- Questions will go here -->
+            </div>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+        <div id="popup" class="popup">
+            <span class="popup-text">✔ Your Feedback has been submitted. Thanks for your valuable feedback. See you again!!!</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
