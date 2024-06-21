@@ -39,7 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // Handle form submission
     form.addEventListener('submit', (event) => {
         event.preventDefault();
-        // Form data collection can be added here if needed
         popup.style.display = 'block';
         setTimeout(() => {
             popup.style.display = 'none';
